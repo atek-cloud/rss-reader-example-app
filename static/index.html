@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>atRSS</title>
+  </head>
+  <body>
+    <app-add-feed></app-add-feed>
+    <app-feed></app-feed>
+  </body>
+</html>
+
+<script type="module" src="/index.js"></script>
+<style>
+  body {
+    font-family: monospace;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  app-add-feed form {
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+  }
+
+  app-add-feed input {
+    flex: 1;
+    margin-right: 1rem;
+  }
+
+  .feed-item {
+    margin: 1rem;
+  }
+  .feed-item-link {
+    font-size: 1.25rem;
+  }
+</style>
