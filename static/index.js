@@ -29,7 +29,7 @@ class AddFeedElement extends HTMLElement {
   connectedCallback () {
     this.innerHTML = `
       <form>
-        <input type="url" placeholder="Feed URL" name="url">
+        <input type="url" placeholder="Feed URL" name="url" required>
         <button type="submit">Add Feed</button>
       </form>
     `
